@@ -8,9 +8,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-      <Route path="/" exact component={RecipeList}></Route>
+        <Route path="/react-food-recipe" exact component={RecipeList}></Route>
+        <Route path="/" exact component={RecipeList}></Route>
         <Route path="/:id" component={RecipeDetail}></Route>
-
       </Switch>
     </BrowserRouter>
   );

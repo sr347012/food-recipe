@@ -55,7 +55,8 @@ const RecipeList = () => {
       <Recipe title={rec.recipe.label}
       img = {rec.recipe.image}
       calories = {rec.recipe.calories} 
-      key = {rec.recipe.calories}
+      key = {rec._links.self.href.split('/').reverse()[0].split('?')[0]}
+      id = {rec._links.self.href.split('/').reverse()[0].split('?')[0]}
 
       />
       ))}
