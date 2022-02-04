@@ -22,7 +22,7 @@
     z-index: 50;
     backdrop-filter: blur(10rem);
 }
-img {
+.recipe img {
     border-radius: 3rem;
     box-shadow: 1px 1px 3px black;
 }

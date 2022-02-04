@@ -1,4 +1,4 @@
-import style from './recipe-list.module.css';
+import recipeListStyle from './recipe-list.module.css';
 import react, {useEffect, useState} from 'react';
 import Recipe from './recipe';
 
@@ -39,15 +39,15 @@ const RecipeList = () => {
     },[query]);
     return (
         
-    <div className={style.App}>
-      <form onSubmit={updateQuery} className={style.searchForm}>
-      <h1 className={style.title}>Recipe Search Application</h1>
+    <div className={recipeListStyle.App}>
+      <form onSubmit={updateQuery} className={recipeListStyle.searchForm}>
+      <h1 className={recipeListStyle.title}>Recipe Search Application</h1>
 
-        <input className={style.searchBar} 
+        <input className={recipeListStyle.searchBar} 
         type="text" 
         value={search} 
         onChange={updateSearch} />
-        <button className={style.searchButton} type='submit' >
+        <button className={recipeListStyle.searchButton} type='submit' >
         Search   </button>        
       </form>
 

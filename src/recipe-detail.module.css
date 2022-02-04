@@ -12,7 +12,7 @@ padding: 1rem;
 
 }
 
-img {
+.leftContainer img {
     border-radius: 1rem;
     box-shadow: 4px 2px 4px rgb(10, 7, 3, 0.7);
     width: 500px;

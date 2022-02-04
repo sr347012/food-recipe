@@ -1,5 +1,5 @@
 import react, {useEffect, useState} from "react";
-import style from './recipe-detail.module.css';
+import recipeDetailStyle from './recipe-detail.module.css';
 const RecipeDetail = () => {
     // console.log(window.location.href);
     const id = window.location.href.split('/').reverse()[0];
@@ -21,13 +21,13 @@ const RecipeDetail = () => {
       },[]);
 
     return (
-        <div className={style.mainContainer}>
+        <div className={recipeDetailStyle.mainContainer}>
             {/* <h1>Hello {id}</h1> */}
-            <div className={style.leftContainer}>
+            <div className={recipeDetailStyle.leftContainer}>
                 <img src={recipeDetail.image}></img>
-                <div className={style.leftDetails}></div>
+                <div className={recipeDetailStyle.leftDetails}></div>
             </div>
-            <div className={style.rightContainer}>
+            <div className={recipeDetailStyle.rightContainer}>
             <h1>{recipeDetail.label}</h1>                
                 <h2>{recipeDetail.dishType}</h2>
                 {recipeDetail.ingredientLines}
