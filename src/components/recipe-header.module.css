@@ -1,0 +1,21 @@
+.headerHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.headerLeft {
+    /* background-image: url(./../assets/icon.svg); */
+    width: 100px;
+    height: 100px;
+    /* stroke: aqua; */
+    fill: antiquewhite;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.headerRight {
+
+}
