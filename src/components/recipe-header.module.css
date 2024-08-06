@@ -10,7 +10,8 @@
     width: 100px;
     height: 100px;
     /* stroke: aqua; */
-    fill: antiquewhite;
+    /* fill: var(--bg04); */
+    fill: white;
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;

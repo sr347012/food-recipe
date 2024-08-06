@@ -1,4 +1,44 @@
 .homeContainer {
     color: brown;
+    background-image: url(./../assets/p02.jpg);
+        /* background: linear-gradient(0% var(--bg01), 100% var(--bg02), 45deg); */
+        height: 100vh;
+        
     /* background-color: aqua; */
+}
+
+.coverContainer {
+    background-image: url(./../assets/sp02.svg);
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.main-stop {
+    stop-color: red;
+}
+
+.alt-stop {
+    stop-color: blue;
+}
+
+.mask1 {
+    -webkit-mask-image: url(./../assets/sp02.svg);
+    mask-image: url(./../assets/sp02.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+.coverContainer>svg>path {
+    fill: aliceblue;
+
+}
+.coverContainer>svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
